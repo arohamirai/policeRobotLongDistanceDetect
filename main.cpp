@@ -130,14 +130,14 @@ void main()
 		{
 
 			double tmpArea = fabs(contourArea(contours[i]));
-			std::cout<<tmpArea<<std::endl;
-			Rect aRect = boundingRect(contours[i]);
+			//std::cout<<tmpArea<<std::endl;
+			//Rect aRect = boundingRect(contours[i]);
 			if (tmpArea > areaThresh)
 			{
 				contours1.push_back(contours[i]);
 			}
 		}
-
+		cout << contours1.size() << endl;
 		/// Draw contours
 		//*
 		Mat drawing = Mat::zeros(segmentationMap.size(), CV_8UC3);
