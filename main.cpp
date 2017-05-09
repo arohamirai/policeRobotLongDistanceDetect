@@ -57,7 +57,7 @@ void main()
 
 	
 	Mat frame;
-	/*
+	//*
 	VideoCapture cap("person.mp4");
 	for (int i = 0; i < 30*30; i++)
 	{
@@ -66,8 +66,8 @@ void main()
 	/**/
 	while (1)
 	{
-		//cap>>frame;
-		//*
+		cap>>frame;
+		/*
 		EnterCriticalSection(&g_cs_frameList);
 		frame = picBGR.clone();
 		LeaveCriticalSection(&g_cs_frameList);
@@ -93,9 +93,9 @@ void main()
 	{
 		static int n = 0;
 		//cout << n++ << endl;
-		//cap >> frame;
+		cap >> frame;
 		//cout << "detec" << endl;
-		//*
+		/*
 		EnterCriticalSection(&g_cs_frameList);
 		frame = picBGR.clone();
 		LeaveCriticalSection(&g_cs_frameList);
