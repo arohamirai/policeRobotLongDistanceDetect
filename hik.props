@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>C:\Users\liufeng\Desktop\CH-HCNetSDK(Windows64)V5.2.3.3_build20160623\sdk\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\liufeng\Desktop\CH-HCNetSDK%28Windows64%29V5.2.3.3_build20160623\sdk\lib\HCNetSDKCom;C:\Users\liufeng\Desktop\CH-HCNetSDK(Windows64)V5.2.3.3_build20160623\sdk\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>calib.lib;GdiPlus.lib;HCCore.lib;HCNetSDK.lib;iconv.lib;libxml2.lib;PlayCtrl.lib;zlib.lib;HCAlarm.lib;HCGeneralCfgMgr.lib;HCPreview.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
